@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "lets-do-photographers",
+  "version": "${version}",
+  "name": "[Let's Do Addon] Photographers",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": ["diacritics-owo"],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/lets-do-photographers/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["diacritics.owo.LetsDoAddonPhotographers"],
+    "client": ["diacritics.owo.LetsDoAddonPhotographersClient"]
+  },
+  "mixins": [
+    "lets-do-photographers.mixins.json",
+    {
+      "config": "lets-do-photographers.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
