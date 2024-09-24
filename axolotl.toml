@@ -8,7 +8,7 @@ loaders = ["fabric", "quilt"]
 type = "editor"
 
 [modrinth]
-id = "modrinth project id"
+id = "cbXN2yYu"
 featured = true
 
 [[modrinth.dependencies]]
@@ -16,9 +16,9 @@ id = "P7dR8mSH"
 dependency_type = "required"
 
 [[modrinth.dependencies]]
-id = "P7dR8mSH"
+id = "ra7o6Sl7"
 dependency_type = "required"
 
 [github]
-repo = ["user", "repo"]
+repo = ["diacritics-owo", "lets-do-addon-photographers"]
 draft = true

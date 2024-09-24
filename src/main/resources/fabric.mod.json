@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "id": "lets-do-photographers",
   "version": "${version}",
-  "name": "[Let's Do Addon] Photographers",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "[Let's Do Addon]: Photographers",
+  "description": "A mod that adds a photographer profession for the Let's Do: Meadow camera block",
   "authors": ["diacritics-owo"],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://modrinth.com/mod/lets-do-photographers",
+    "sources": "https://github.com/diacritics-owo/lets-do-addon-photographers"
   },
   "license": "MIT",
   "icon": "assets/lets-do-photographers/icon.png",
