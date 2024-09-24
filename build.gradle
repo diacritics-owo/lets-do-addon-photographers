@@ -10,19 +10,7 @@ base {
 	archivesName = project.archives_base_name
 }
 
-repositories {
-	exclusiveContent {
-		forRepository {
-			maven {
-				name = "Modrinth"
-				url = "https://api.modrinth.com/maven"
-			}
-		}
-		filter {
-			includeGroup "maven.modrinth"
-		}
-	}
-}
+repositories {}
 
 loom {
 	splitEnvironmentSourceSets()
@@ -41,8 +29,6 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-
-	modImplementation "maven.modrinth:lets-do-meadow:1.3.19"
 }
 
 processResources {

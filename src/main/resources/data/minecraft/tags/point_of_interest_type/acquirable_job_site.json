@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "lets-do-photographers:photographer",
+      "required": true
+    }
+  ]
+}
